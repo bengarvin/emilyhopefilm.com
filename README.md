@@ -22,6 +22,8 @@ It is a plain static site: HTML files, one CSS file, and images. No frameworks, 
 | Page-not-found | `404.html` |
 | All colors, fonts and spacing | `css/style.css` (colors are at the top) |
 | Web-sized photos | `img/stills/` (each in 800, 1600 and 2400 px wide) |
+| Event photos | `img/events/` |
+| Headshots | `img/people/` |
 | Full-resolution press photos | `press/stills/` |
 | Press photo zip | `press/emily-hope-press-stills.zip` |
 
@@ -49,7 +51,10 @@ The header and footer are repeated in every page. If you change a link, an email
 - Photographs are journalism: resize or crop only. No retouching and no AI-generated or AI-altered images, ever.
 - Use relative links (`../press/`), not `/press/`, except in `404.html`.
 - When adding or removing a page, update `sitemap.xml`.
-- Names: Emily Hope Hofher (on first reference), then Emily. Her husband is Rob Raub; her daughter is Ruby.
+- Names: Emily Hope Hofher (always "Hofher") on first reference, then Emily. Her husband is Rob Raub; her daughter is Ruby. Director: Lindsey Seavert (not Seavert Harrison).
+- Cathy Wurzer: describe her as an MPR host and founder of End in Mind. Link only to End in Mind (https://www.endinmindproject.org/); never link MPR or imply MPR is involved.
+- Past screenings were work-in-progress (rough cut) previews, never premieres. Keep "world premiere available" accurate for festivals.
+- Event photos from the September 2025 fundraiser are by Cory Ryan (https://www.ctryan.com/); always credit him.
 
 ## Hosting
 
