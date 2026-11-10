@@ -154,24 +154,57 @@
     <section class="section" aria-label="About the film">
       <div class="prose center">
         <p class="lede">An intimate vérité documentary about a mother racing against time to prepare her young adopted daughter for a future without her.</p>
-        <p class="muted">Directed by Ben Garvin and Lindsey Seavert. Now in post-production; festival premiere to be announced.</p>
+        <p class="credits-line">Directed by Ben Garvin and Lindsey Seavert &middot; Edited by Renny McCauley</p>
+        <p class="muted">Now in post-production. Festival premiere to be announced.</p>
       </div>
     </section>
 
-    <section class="section alt" aria-label="Emily, in her words">
-      <blockquote class="pull">
-        <p>&ldquo;Because everybody&rsquo;s gonna die. And how you die and how you&rsquo;re celebrated in the end, I think it really matters.&rdquo;</p>
-        <cite>Emily Hope Hofher</cite>
-      </blockquote>
+    <section class="section band" aria-label="Emily, in her words">
+      <div class="quote-row">
+        <figure>
+          <img src="img/family/emily-hope-hofher-on-the-rocks-1500.jpg" srcset="img/family/emily-hope-hofher-on-the-rocks-800.jpg 800w, img/family/emily-hope-hofher-on-the-rocks-1500.jpg 1500w" sizes="(min-width: 52rem) 28rem, 100vw" width="1500" height="965" alt="Emily Hope Hofher as a young woman, sitting on a rocky shoreline and looking back over her shoulder." loading="lazy" decoding="async">
+          <figcaption>Emily Hope Hofher. Family photo.</figcaption>
+        </figure>
+        <blockquote class="pull">
+          <p>&ldquo;Because everybody&rsquo;s gonna die. And how you die and how you&rsquo;re celebrated in the end, I think it really matters.&rdquo;</p>
+          <cite>&mdash; Emily Hope Hofher</cite>
+        </blockquote>
+      </div>
     </section>
 
     <section class="section" aria-labelledby="story">
       <div class="prose">
+        <figure class="float-photo">
+          <img src="img/family/emily-hope-hofher-as-a-child-600.jpg" srcset="img/family/emily-hope-hofher-as-a-child-600.jpg 600w, img/family/emily-hope-hofher-as-a-child-1200.jpg 1200w" sizes="12rem" width="600" height="841" alt="Emily Hope Hofher as a young girl in a ballet costume, posing in a kitchen doorway." loading="lazy" decoding="async">
+          <figcaption>Emily Hope Hofher as a child. Family photo.</figcaption>
+        </figure>
         <h2 id="story">The story</h2>
         <p>Emily Hope began as a film about green burial and the ways we prepare for death. But Emily, a Minneapolis mother living with terminal illness, was facing a harder question: how do you prepare your young daughter for a life without you?</p>
         <p>Filmed intimately over several years, the film follows Emily, her daughter Ruby and her husband Rob as they navigate what it means to prepare for loss while continuing to live. It became less a film about dying than about parenting, love, honesty, and the courage it takes to tell the truth.</p>
         <p><a href="film/">More about the film and the filmmakers</a></p>
       </div>
+    </section>
+
+    <section class="section" aria-label="Opening scene" style="padding-top:0">
+    <div class="video" id="watch">
+      <button type="button" data-vimeo="1108676259" aria-label="Play the working opening scene of Emily Hope (loads a Vimeo player)">
+        <img src="img/stills/emily-hope-02-ruby-in-doorway-1600.jpg" srcset="img/stills/emily-hope-02-ruby-in-doorway-800.jpg 800w, img/stills/emily-hope-02-ruby-in-doorway-1600.jpg 1600w, img/stills/emily-hope-02-ruby-in-doorway-2400.jpg 2400w" sizes="(min-width: 60rem) 60rem, 100vw" width="1600" height="900" alt="" loading="lazy" decoding="async">
+        <span>&#9654;&nbsp; Play the opening scene</span>
+      </button>
+    </div>
+    <script>
+      // Click-to-play: the Vimeo player only loads when someone presses play, which keeps the page fast.
+      document.querySelectorAll('[data-vimeo]').forEach(function (b) {
+        b.addEventListener('click', function () {
+          var f = document.createElement('iframe');
+          f.src = 'https://player.vimeo.com/video/' + b.dataset.vimeo + '?autoplay=1&dnt=1';
+          f.title = 'Emily Hope, working opening scene';
+          f.allow = 'autoplay; fullscreen; picture-in-picture';
+          f.allowFullscreen = true;
+          b.replaceWith(f);
+        });
+      });
+    </script>
     </section>
 
     <figure class="figure-wide">
