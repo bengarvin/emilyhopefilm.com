@@ -56,6 +56,11 @@ The header and footer are repeated in every page. If you change a link, an email
 - Past screenings were work-in-progress (rough cut) previews, never premieres. Keep "world premiere available" accurate for festivals.
 - Event photos from the September 2025 fundraiser are by Cory Ryan (https://www.ctryan.com/); always credit him.
 
+## Analytics
+
+- Google Analytics 4, measurement ID `G-E8V0E00K4C` (property "emilyhopefilm.com" in Ben's Google Analytics account). The tag is in the `<head>` of every HTML page; keep it when adding pages.
+- Google Search Console: domain property emilyhopefilm.com, sitemap submitted.
+
 ## Hosting
 
 - Hosted free on GitHub Pages from the `main` branch.
