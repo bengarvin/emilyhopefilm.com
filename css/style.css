@@ -189,3 +189,26 @@ figcaption { font-size: 0.9rem; line-height: 1.5; color: var(--muted); margin-to
 
 /* ---------- Content note ---------- */
 .note { font-size: 0.95rem; color: var(--muted); border-left: 2px solid var(--line); padding-left: 1rem; margin-top: 1.5rem; }
+
+/* ---------- Green quote band (home) ---------- */
+.band { background: var(--accent); color: var(--accent-ink); }
+.band a { color: var(--accent-ink); }
+.quote-row { max-width: 64rem; margin: 0 auto; display: grid; gap: 2rem; grid-template-columns: 1fr; align-items: center; }
+@media (min-width: 52rem) { .quote-row { grid-template-columns: 2fr 3fr; gap: 3.5rem; } }
+.band figcaption { color: rgba(247, 243, 236, 0.75); }
+.band .pull { text-align: left; margin: 0; }
+.band .pull cite { color: rgba(247, 243, 236, 0.8); }
+@media (max-width: 51.99rem) { .band .pull { text-align: center; } }
+
+/* ---------- Small photo floated beside text ---------- */
+.float-photo { width: 10rem; float: right; margin: 0.4rem 0 1rem 1.75rem; }
+@media (min-width: 48rem) { .float-photo { width: 13rem; margin-right: -4rem; } }
+.float-photo img { border-radius: 2px; }
+.float-photo figcaption { font-size: 0.8rem; }
+.prose::after { content: ""; display: block; clear: both; }
+
+/* ---------- Credits line + green accents ---------- */
+.credits-line { font-size: 1rem; letter-spacing: 0.02em; margin-bottom: 0.4rem; }
+.prose:not(.center) > h2::before, .prose > figure + h2::before { content: ""; display: block; width: 2.5rem; height: 2px; background: var(--accent); margin-bottom: 0.9rem; }
+.door { border-top-color: var(--accent); }
+.eyebrow { color: var(--accent); }
