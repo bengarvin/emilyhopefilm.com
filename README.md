@@ -41,7 +41,7 @@ The header and footer are repeated in every page. If you change a link, an email
 
 **Add or replace a photo.** Save three copies, 800, 1600 and 2400 pixels wide, in `img/stills/` using the naming pattern already there, and update the `<img>` tag. Add the original to `press/stills/` if it should be downloadable. Never alter photographs beyond resizing and cropping.
 
-**Swap in the email signup form.** Each page with "Stay in touch" has a comment `EMAIL SIGNUP`. Replace the button under it with the embed code from Kit (or Buttondown).
+**Email signup.** The "Stay in touch" form on the Home, Screenings and Support pages sends addresses to Kit (kit.com), form "Emily Hope updates" (ID 10171319). Kit emails a confirmation link, then sends people to `thanks/` and `thanks/confirmed/`. Subscribers and broadcasts are managed in Kit, not here.
 
 ## Rules for editors (people and AI)
 

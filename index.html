@@ -258,8 +258,14 @@
       <div class="prose">
         <h2 id="updates">Stay in touch</h2>
         <p>Occasional updates on screenings and the film's release. A few emails a year, nothing more.</p>
-        <!-- EMAIL SIGNUP: replace this button with the Kit (or Buttondown) embed form when the account is set up. -->
-        <p>To join the list, email <a href="mailto:bengarvin@gmail.com">bengarvin@gmail.com</a> or <a href="mailto:lseavert@gmail.com">lseavert@gmail.com</a>.</p>
+        <!-- EMAIL SIGNUP: posts to Kit form 10171319 ("Emily Hope updates"). Kit sends a confirmation email,
+             then redirects to /thanks/ and, after confirming, /thanks/confirmed/. -->
+        <form class="signup" action="https://app.kit.com/forms/10171319/subscriptions" method="post">
+          <label for="email-signup" class="visually-hidden">Email address</label>
+          <input id="email-signup" type="email" name="email_address" placeholder="Your email address" autocomplete="email" required>
+          <button class="btn" type="submit">Sign up</button>
+          <p class="signup-note">We&rsquo;ll send a quick email to confirm. Unsubscribe anytime.</p>
+        </form>
       </div>
     </section>
   </main>
