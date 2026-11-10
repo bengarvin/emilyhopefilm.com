@@ -184,30 +184,26 @@
         <h2 id="story">The story</h2>
         <p>Emily Hope began as a film about green burial and the ways we prepare for death. But Emily, a Minneapolis mother living with terminal illness, was facing a harder question: how do you prepare your young daughter for a life without you?</p>
         <p>Filmed intimately over several years, the film follows Emily, her daughter Ruby and her husband Rob as they navigate what it means to prepare for loss while continuing to live. It became less a film about dying than about parenting, love, honesty, and the courage it takes to tell the truth.</p>
-        <p><a href="film/">More about the film and the filmmakers</a></p>
+        <p class="story-links"><a class="play-link" href="film/#watch" data-vimeo-modal="1108676259">&#9654;&nbsp; Watch the opening scene</a> <span aria-hidden="true">&middot;</span> <a href="film/">More about the film and the filmmakers</a></p>
       </div>
     </section>
 
-    <section class="section" aria-label="Opening scene" style="padding-top:0">
-    <div class="video" id="watch">
-      <button type="button" data-vimeo="1108676259" aria-label="Play the working opening scene of Emily Hope (loads a Vimeo player)">
-        <img src="img/stills/emily-hope-02-ruby-in-doorway-1600.jpg" srcset="img/stills/emily-hope-02-ruby-in-doorway-800.jpg 800w, img/stills/emily-hope-02-ruby-in-doorway-1600.jpg 1600w, img/stills/emily-hope-02-ruby-in-doorway-2400.jpg 2400w" sizes="(min-width: 60rem) 60rem, 100vw" width="1600" height="900" alt="" loading="lazy" decoding="async">
-        <span>&#9654;&nbsp; Play the opening scene</span>
-      </button>
-    </div>
-    <script>
-      // Click-to-play: the Vimeo player only loads when someone presses play, which keeps the page fast.
-      document.querySelectorAll('[data-vimeo]').forEach(function (b) {
-        b.addEventListener('click', function () {
-          var f = document.createElement('iframe');
-          f.src = 'https://player.vimeo.com/video/' + b.dataset.vimeo + '?autoplay=1&dnt=1';
-          f.title = 'Emily Hope, working opening scene';
-          f.allow = 'autoplay; fullscreen; picture-in-picture';
-          f.allowFullscreen = true;
-          b.replaceWith(f);
-        });
-      });
-    </script>
+    <section class="section alt" aria-labelledby="eim">
+      <div class="feature">
+        <figure>
+          <a href="img/events/cathy-wurzer-lindsey-seavert-ben-garvin-1600.jpg"><img src="img/events/cathy-wurzer-lindsey-seavert-ben-garvin-1600.jpg" srcset="img/events/cathy-wurzer-lindsey-seavert-ben-garvin-800.jpg 800w, img/events/cathy-wurzer-lindsey-seavert-ben-garvin-1600.jpg 1600w" sizes="(min-width: 52rem) 34rem, 100vw" width="1600" height="1066" alt="Cathy Wurzer stands between filmmakers Lindsey Seavert and Ben Garvin at FilmNorth in St. Paul, September 2025." loading="lazy" decoding="async"></a>
+          <figcaption>Lindsey Seavert, Cathy Wurzer and Ben Garvin at FilmNorth, September 2025. Photo: <a href="https://www.ctryan.com/">Cory Ryan</a></figcaption>
+        </figure>
+        <div>
+          <p class="eyebrow">Community partner</p>
+          <h2 id="eim">In partnership with Cathy Wurzer and End in Mind</h2>
+          <p>Cathy Wurzer is one of Minnesota&rsquo;s most trusted broadcast voices, a longtime host on MPR and the founder of <a href="https://www.endinmindproject.org/">End in Mind</a>, a nonprofit that helps people talk openly about death, dying and grief.</p>
+          <p>Cathy hosted the film&rsquo;s first work-in-progress fundraiser, and End in Mind is partnering with us to bring <em>Emily Hope</em> to communities across Minnesota through screenings and conversations.</p>
+          <!-- CATHY QUOTE: when approved, add here:
+          <blockquote class="feature-quote"><p>&ldquo;Quote text.&rdquo;</p><cite>&mdash; Cathy Wurzer, founder, End in Mind</cite></blockquote> -->
+          <div class="btn-row"><a class="btn" href="https://www.endinmindproject.org/">Visit End in Mind</a> <a class="btn ghost" href="screenings/">Screenings &amp; conversations</a></div>
+        </div>
+      </div>
     </section>
 
     <figure class="figure-wide">
@@ -215,22 +211,11 @@
       <figcaption>Rob and Ruby decorate the Christmas tree beneath a portrait of Emily, in the months after her death. Photo: Ben Garvin / Tiny Window Pictures</figcaption>
     </figure>
 
-    <section class="section" aria-labelledby="eim">
-      <div class="partner-row">
-        <a class="thumb" href="img/events/cathy-wurzer-lindsey-seavert-ben-garvin-1600.jpg"><img src="img/events/cathy-wurzer-lindsey-seavert-ben-garvin-1600.jpg" srcset="img/events/cathy-wurzer-lindsey-seavert-ben-garvin-800.jpg 800w, img/events/cathy-wurzer-lindsey-seavert-ben-garvin-1600.jpg 1600w" sizes="14rem" width="1600" height="1066" alt="Cathy Wurzer stands between filmmakers Lindsey Seavert and Ben Garvin at FilmNorth in St. Paul, September 2025." loading="lazy" decoding="async"></a>
-        <div>
-          <p class="eyebrow">Community partner</p>
-          <h3 id="eim">Cathy Wurzer and End in Mind</h3>
-          <p>Longtime MPR host Cathy Wurzer founded <a href="https://www.endinmindproject.org/">End in Mind</a>, a Minnesota nonprofit that helps people talk openly about death, dying and grief. She hosted the film&rsquo;s first work-in-progress fundraiser, and End in Mind is partnering with us on <a href="screenings/">screenings and conversations</a> across Minnesota.</p>
-          <p class="credit-line">Photo: <a href="https://www.ctryan.com/">Cory Ryan</a></p>
-        </div>
-      </div>
-    </section>
 
     <section class="section" aria-label="Find your way">
       <div class="doors">
         <div class="door">
-          <h3><a href="film/#watch">Watch the opening scene</a></h3>
+          <h3><a href="film/#watch" data-vimeo-modal="1108676259">Watch the opening scene</a></h3>
           <p>The first minutes of the film, and the full story behind it.</p>
         </div>
         <div class="door">
@@ -253,6 +238,29 @@
         <li><span>Community partner</span><a href="https://www.endinmindproject.org/">End in Mind</a></li>
       </ul>
     </section>
+
+    <div class="modal" id="video-modal" hidden>
+      <div class="modal-inner" role="dialog" aria-modal="true" aria-label="Emily Hope, working opening scene">
+        <button type="button" class="modal-close" aria-label="Close video">&times;</button>
+        <div class="modal-frame"></div>
+      </div>
+    </div>
+    <script>
+      // "Watch the opening scene": opens the Vimeo player large over the page. Falls back to The Film page without JavaScript.
+      (function () {
+        var m = document.getElementById('video-modal'), frame = m.querySelector('.modal-frame'), last;
+        function close() { frame.innerHTML = ''; m.hidden = true; document.body.style.overflow = ''; if (last) last.focus(); }
+        document.querySelectorAll('[data-vimeo-modal]').forEach(function (a) {
+          a.addEventListener('click', function (e) {
+            e.preventDefault(); last = a;
+            frame.innerHTML = '<iframe src="https://player.vimeo.com/video/' + a.dataset.vimeoModal + '?autoplay=1&dnt=1" title="Emily Hope, working opening scene" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>';
+            m.hidden = false; document.body.style.overflow = 'hidden'; m.querySelector('.modal-close').focus();
+          });
+        });
+        m.addEventListener('click', function (e) { if (e.target === m || e.target.classList.contains('modal-close')) close(); });
+        document.addEventListener('keydown', function (e) { if (e.key === 'Escape' && !m.hidden) close(); });
+      })();
+    </script>
 
     <section class="section center" aria-labelledby="updates">
       <div class="prose">
